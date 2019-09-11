@@ -1,0 +1,67 @@
+pi RTC setup
+http://www.raspberrypi-spy.co.uk/2015/05/adding-a-ds3231-real-time-clock-to-the-raspberry-pi/
+
+
+MPU6050 6 Axis Accelerometer
+http://blog.bitify.co.uk/2013/11/reading-data-from-mpu-6050-on-raspberry.html
+
+
+set up i2c bus
+sudo apt-get install i2c-tools
+sudo vi /etc/modules
+i2c-dev
+rtc-ds1307
+i2c-bcm2708
+
+
+.h264 to .mp4
+
+sudo apt-get install gpac
+y
+
+MP4Box -add 0.h264 0.mp4
+MP4Box -add 1.h264 1.mp4
+MP4Box -add 2.h264 2.mp4
+MP4Box -add 3.h264 3.mp4
+MP4Box -add 4.h264 4.mp4
+MP4Box -add 5.h264 5.mp4
+MP4Box -add 6.h264 6.mp4
+MP4Box -add 7.h264 7.mp4
+MP4Box -add 8.h264 8.mp4
+MP4Box -add 9.h264 9.mp4
+MP4Box -add 10.h264 10.mp4
+MP4Box -add 11.h264 11.mp4
+MP4Box -add 12.h264 12.mp4
+MP4Box -add 13.h264 13.mp4
+MP4Box -add 14.h264 14.mp4
+MP4Box -add 15.h264 15.mp4
+
+
+
+
+sudo python Car_Cam_0.1.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
